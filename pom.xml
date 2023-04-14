@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    xmlns="https://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 	<groupId>org.ardublock</groupId>
 	<artifactId>ardublock</artifactId>
@@ -20,8 +20,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -77,7 +77,7 @@
 							<repositoryLayout>default</repositoryLayout>
 							<groupId>arduino</groupId>
 							<artifactId>arduino-core</artifactId>
-							<version>1.8.5</version>
+							<version>1.6.12</version>
 							<packaging>jar</packaging>
 							<generatePom>true</generatePom>
 						</configuration>
@@ -92,7 +92,7 @@
 	<repositories>
 		<repository>
 			<id>central</id>
-			<url>http://repo1.maven.org/maven2</url>
+			<url>https://repo1.maven.org/maven2</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -111,7 +111,7 @@
 			<groupId>arduino</groupId>
 			<artifactId>arduino-core</artifactId>
 			<scope>provided</scope>
-			<version>1.8.5</version>
+			<version>1.6.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>

@@ -1,5 +1,6 @@
-ArduBlock
+ArduBlock ( for AKBONE series )
 ======
+
 
 ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
 
